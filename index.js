@@ -25,7 +25,7 @@ bot.on('message', (event) => {
             else if (event.message.text === restaurant[2]) {
                 data.replyRestaurants(event)
             }
-           // 依餐廳名稱
+            // 依餐廳名稱
             else if (event.message.text === restaurant[0]) {
                 data.replyMap(event)
             }

@@ -20,6 +20,19 @@ const fetchData = async () => {
     page[7] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=8')
     page[8] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=9')
     page[9] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=10')
+    page[10] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=11')
+    page[11] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=12')
+    page[12] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=13')
+    page[13] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=14')
+    page[14] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=15')
+    page[15] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=16')
+    page[16] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=17')
+    page[17] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=18')
+    page[18] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=19')
+    page[19] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=20')
+    page[20] = await axios.get('https://www.taiwan.net.tw/m1.aspx?sNo=0020118&page=21')
+
+
 
 
     for (let p of page) {
@@ -50,7 +63,7 @@ const fetchData = async () => {
           r.push(response.data.results[0].geometry.location.lng)
         })
         .catch((error) => {
-          console.log('error')
+          // console.log('error')
         })
     }
 
