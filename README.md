@@ -1,104 +1,105 @@
-# "Halalgo" line自動回覆機器人
-台灣有許多的穆斯林朋友們，但對於穆斯林友善的環境或設備相當有限。
-伊斯蘭教有『清真』的飲食規範，但在台灣，清真餐廳數量有限，穆斯林朋友們在尋找餐廳時非常不方便，且有時候可能面臨『破戒』問題。於是，為了更加尊重他們的信仰，以及協助打造穆斯林友善環境，架設了這個HalalGo機器人，希望能讓穆斯林朋友們在尋找清真餐廳上、或是台灣朋友在協助穆斯林朋友尋找清真餐廳時更加方便。目前尚未開發英文版，正持續努力中...
+# "Halalgo" line-robot
+There are 300,000 Muslims in Taiwan, building a Muslim friendly environment is quite an important issue. In Islam, Muslims have to obey the 'Halal' rule, so the purpose of "HalalGo" line-robot is here to help Muslims in Taiwan feel more convenient to find halal restaurant, and to help improve quality of their life in Taiwan.
 
-## 串接資料來源
-- 交通部觀光局 接待穆斯林餐廳及旅館：https://www.taiwan.net.tw/m1.aspx?sNo=0020118
-## 使用說明
-### 加入line 機器人
-- 機器人好友ID: @908wwbxc
-- 機器人QR code: <img src="./linebot qrcode.png">
-可以分為三種查詢方式：
-1. 依餐廳性質：輸入以下餐廳性質關鍵字，即會跳出最多六家相關餐廳
-    - 印度料理
-    - 印尼料理
-    - 土耳其料理
-    - 中式料理
-    - 中東料理
-    - 馬來料理
-    - 泰式料理
-    - 雲南料理
-    - 速食
-    - 中式/中東式料理
-    - 泰式料理、餐廳團套餐
-    - 咖啡廳
-    - 下午茶
-    - 冰品/甜點
-    - 義大利料理
-    - 日式料理
-    - 素食
-    - 中式麵食
-    - 早午晚餐/住宿
-    - 早餐/住宿/套餐
-    - 台灣料理
-    - 火鍋料理
-    - 飲料
-    - 套餐
-    - 飲料/套餐
-    - 素食料理
-    - 早午晚餐、日本料理/住宿
-    - 異國料理
-    - 住宿/異國料理
-    - 住宿
-    - 早餐/住宿
-    - 清真廚房
-    - 清真冷凍即時調理包
-    - 清真廚房、Halal食品及調理包
-    - 各式泡菜
-    - 餐廳團套餐
-    - 飲料店
-    - 民宿早餐/餐廳團套餐/觀光工廠下午茶
-    - 旅館早餐
-    - 義大利冰淇淋店
-    - 巧克力商品/飲料
-    - 旅館早餐/團套餐
-    - 民宿早餐
-    - 旅館團套餐
-    - 渡假村早餐/團餐
-    - 餐廳團餐
-    - 民宿早餐/農場體驗午餐
-    - 民宿早餐/下午茶
-    - 早餐/下午茶
-    - 套餐/DIY/購物
-    - 單點
-    - 單點/飲料/套餐
-    - DIY/飲料
-    - 早餐/住宿/DIY
-    - 單點/飲料/冰品
-    - 單點/套餐
-    - 飲品/購物
-    - 簡餐/飲品/購物
-    - 冰品
-    - 住宿/臺式料理/小吃/甜點/自助式早餐/休閒設施
-    - 早餐/住宿/套餐
-    - 住宿/臺式料理/自助式早餐
-    - 住宿/自助式早餐
-    - 住宿/義式料理/自助式早餐/休閒設施
+## Sources
+- https://www.taiwan.net.tw/m1.aspx?sNo=0020118
+## Get Started
+### add friend in Line
+- Line ID: @908wwbxc
+- QR code: <img src="./linebot qrcode.png">
 
-2. 依餐廳所在城市：輸入以下城市關鍵字，即會跳出所選城市中、最多六家的餐廳
-    - 基隆市
-    - 宜蘭縣
-    - 臺北市
-    - 新北市
-    - 桃園市
-    - 新竹縣
-    - 新竹市
-    - 苗栗縣
-    - 臺中市
-    - 彰化縣
-    - 南投縣
-    - 雲林縣
-    - 嘉義縣
-    - 嘉義市
-    - 臺南市
-    - 高雄市
-    - 屏東縣
-    - 花蓮縣
-    - 臺東縣
-    - 澎湖縣
+### Three Methods of keywords
+1. **Type of Restaurants** : enter the keyword of the type of restaurants, at most six restaurants will pop up.
+    - Indian Cuisine
+    - Indonesian Cuisine
+    - Indian Food
+    - Turkish Cuisine
+    - Chinese Cuisine
+    - Exotic Cuisine
+    - Thai Cusine
+    - Moroccan Cuisine
+    - Italian Cuisine
+    - Middle Eastern Cuisine
+    - Malay Cuisine
+    - Yunnan Cuisine
+    - Fast Food
+    - Chinese & Middle East Foods	
+    - Thai Cusine、Restaurant Set & Group Meal
+    - café
+    - Afternoon Tea
+    - Ice/Desserts
+    - Vegetarian Food
+    - Japanese Cuisine
+    - Chinese Noodles
+    - Breakfast & Lunch & Dinner / Accommodation
+    - Breakfast / Accommodation / Set Menu
+    - Taiwanese cuisine
+    - Hot Pot Cuisine
+    - Beverage
+    - Set Menu
+    - Beverage / Set Menu
+    - Accommodation/Exotic Cuisine
+    - Breakfast & Lunch & Dinner / Japanese Cuisine / Accommodation
+    - Accommodation/ Vegetarian Cuisine
+    - Breakfast / Accommodation
+    - Accommodation
+    - Breakfast & Accommodation
+    - Halal Kitchen
+    - Halal Kitchen、Halal Food & Conditioning package
+    - Kimchi
+    - Restaurant Set & Group Meal
+    - Restaurant Set Meal
+    - Beverage Shop
+    - Guesthouse Breakfast / Restaurant Set & Group Meal / Tourism Factory Afternoon Tea
+    - Hotel Breakfast
+    - Italian Gelato Shop
+    - Chocolate Product / Beverage
+    - Hotel Breakfast / Set & Group Meal
+    - Guesthouse Breakfast
+    - Hotel Set & Group Meal
+    - Resort Breakfast / Group Meal
+    - Restaurant Group Meal
+    - Guesthouse Breakfast / Farm Experience Lunch
+    - Guesthouse Breakfast / Afternoon Tea
+    - Hotel Breakfast/Afternoon Tea
+    - Set Menu / DIY / Souvenir
+    - a la carte
+    - a la carte / Beverage / Set Menu
+    - DIY / Beverage
+    - Breakfast / Accommodation / DIY
+    - a la carte / Beverage / Ice
+    - Beverage/souvenir
+    - Set Menu/Beverage/Souvenir
+    - Shaved Ice
+    - Accommodation / Taiwanese Cuisine / Sacks / Desserts / Buffet breakfast / Leisure Facilities
+    - Accommodation / Taiwanese cuisine / Buffet breakfast
+    - Accommodation / Buffet breakfast
+    - Accommodation / Italian cuisine / Buffet breakfast / Leisure Facilities
 
-3. 依餐廳名稱：輸入餐廳名稱，即可取得地圖及地理位置資訊
+2. **City**：enter the keyword of cities or counties, at most six restaurants in specific cities or couties will pop up.
+    - Keelung City
+    - Yilan County
+    - Taipei City
+    - New Taipei City
+    - Taoyuan City
+    - Hsinchu City
+    - Hsinchu County
+    - Miaoli County
+    - Taichung City
+    - Changhua County
+    - Nantou County
+    - Yunlin County
+    - Chiayi County
+    - Chiayi City
+    - Tainan City
+    - Kaohsiung City
+    - Pingtung City
+    - Hualien County
+    - Taitung County
+    - Penghu County
+
+3. **The name of restaurants**：enter the name of restaurants will get the location and the map.
 
 
-## 注意事項
-資料讀取需要一些時間，請耐心等候。
+## Attention
+Wait till loading completed, there will be a few seconds.
