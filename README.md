@@ -2,7 +2,7 @@
 There are 300,000 Muslims in Taiwan, building a Muslim friendly environment is quite an important issue. In Islam, Muslims have to obey the 'Halal' rule, so the purpose of "HalalGo" line-robot is here to help Muslims in Taiwan feel more convenient to find halal restaurant, and to help improve quality of their life in Taiwan.
 
 ## Sources
-- https://www.taiwan.net.tw/m1.aspx?sNo=0020118
+- https://eng.taiwan.net.tw/m1.aspx?sNo=0020323
 ## Get Started
 ### add friend in Line
 - Line ID: @908wwbxc
