@@ -51,12 +51,12 @@ export default {
         text: 'tel'
       },
       {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "location",
-          "label": "Google map"
+        type: 'button',
+        style: 'link',
+        height: 'sm',
+        action: {
+          type: 'location',
+          label: 'Google map'
         }
       }
     ]
