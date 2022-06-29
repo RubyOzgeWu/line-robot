@@ -21,17 +21,7 @@ export default {
       {
         type: 'text',
         text: 'tel'
-      },
-      // {
-
-      //   type: 'location',
-      //   title: 'my location',
-      //   address: '基隆市中正區信三路25號',
-      //   latitude: '25.132774',
-      //   longtitude: '121.7451693'
-  
-      // }
-      
+      }
     ]
   }
 }
