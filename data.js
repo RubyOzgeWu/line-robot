@@ -40,7 +40,6 @@ const fetchData = async () => {
       $('.muslimDataTable tbody').each(function () {
         restaurants.push($(this).text().replace(/^(\r\n|\n|\r|\t| )+/gm, "").replace('+', '').split(/\n/).filter(text => text.length > 0))
       })
-      console.log(restaurants);
     }
 
 
